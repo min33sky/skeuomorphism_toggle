@@ -44,7 +44,7 @@ export default function BasicToggle() {
         />
         <label
           htmlFor="off"
-          className={`cursor-pointer text-xl tracking-widest transition-all ${
+          className={`cursor-pointer text-xl tracking-widest transition-all duration-500 ${
             active ? 'text-gray-600' : 'text-rose-500'
           }`}
         >

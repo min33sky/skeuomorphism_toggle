@@ -4,4 +4,4 @@
 
 ## Demo
 
-[Demo](https://skeuomorphism-toggle.netlify.com/)
+[Demo](https://sktoggle.netlify.app/)

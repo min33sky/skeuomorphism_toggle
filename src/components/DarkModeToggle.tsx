@@ -12,7 +12,7 @@ export default function DarkModeToggle() {
 
   return (
     <div
-      className={`flex h-20 w-40 select-none items-center justify-around rounded-full bg-gradient-to-r from-[#4b4b4b]
+      className={`flex h-16 w-36 select-none items-center justify-around rounded-full bg-gradient-to-r from-[#4b4b4b]
       to-[#111111] transition-all duration-500 ${
         active
           ? 'shadow-[inset_-0.9em_0_0.9em_rgb(73,73,73)]'
@@ -26,9 +26,9 @@ export default function DarkModeToggle() {
           onClick={toggleSwitch}
           className="appearance-none border-none bg-transparent outline-none"
         />
-        <label htmlFor="light">
+        <label htmlFor="light" title="Light">
           <SunIcon
-            className={`w-8e h-8 cursor-pointer text-xl tracking-widest transition-all duration-500 ${
+            className={`h-8 w-8 cursor-pointer text-xl tracking-widest transition-all duration-500 ${
               active ? 'animate-pulse text-yellow-500' : 'text-gray-600'
             }`}
           />
@@ -42,9 +42,9 @@ export default function DarkModeToggle() {
           onClick={toggleSwitch}
           className="appearance-none border-none bg-transparent outline-none"
         />
-        <label htmlFor="dark">
+        <label htmlFor="dark" title="Dark">
           <MoonIcon
-            className={`h-8 w-8 cursor-pointer text-xl tracking-widest transition-all ${
+            className={`h-8 w-8 cursor-pointer text-xl tracking-widest transition-all duration-500 ${
               active ? 'text-gray-700' : 'animate-pulse  text-yellow-500'
             }`}
           />
